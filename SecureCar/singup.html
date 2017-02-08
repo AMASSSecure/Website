@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- Author: Eoin Lynch -->
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name = "viewport" content= "width = device-width, initial-scale = 1">
+    <title> Eirotec Engineering Ltd. </title>
+    <link rel="shortcut icon" href="Images/ico.png" >
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" >
+    <meta name="author" content="Eoin Lynch" >
+    <meta name="copyright" content="Murphy Transport Ltd" >
+    <meta name="Description" content="Murphy Transport Ltd is a haulage company based in Cork, Ireland that provides a range of services within in the transport sector throughout Ireland" >
+    <meta name="Keywords" content="Murphy Transport, ballinlough, Cork, Dublin, haulage, full load, bulk liquids, trailer hire, food grade, tank wash, car trailer, road tankers, ISO tanks, transportation, bitumen tanks, container service, refrigerated" >
+    <meta name="MSSmartTagsPreventParsing" content="true">
+    <meta name="rating" content="Safe for Kids">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="1 day">
+    <meta name="distribution" content="global">
+    <meta name="resource-type" content="document">
+    <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!--Styling-->
+    <link rel="stylesheet" type="text/css" href="myStyle.css">
+    <!-- font-->
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id = "logo" class="container">
+    <h1 id = "pageHeading">
+        <a href="index.html"><img class="logo" src="Images/logo.png" width = "128px" height = "128px" ></a>
+        <span>
+		    Secure Car.
+            <h3> The effiecient car tracking and security app. </h3>
+
+        </span>
+    </h1>
+
+</div>
+
+<!-- Basic horizontal menu -->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Secure Car</a>
+            <!-- Button that toggles the navbar on and off on small screens -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <!-- Hides information from screen readers -->
+                <span class="sr-only"></span>
+                <!-- Draws 3 bars in navbar button when in small mode -->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle " data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="repowering.html">Engine Re-powering</a></li>
+                        <li><a href="canopy-restoration.html">Canopy Restoration </a></li>
+                        <li><a href="upholstery-repair.html">Upholstery Repair </a></li>
+                        <li><a href="brokerage-sales.html">Brokerage Sales </a></li>
+                        <li><a href="servicing.html"> Servicing </a></li>
+                    </ul>
+
+                </li>
+                <li><a href="contact-us.php">Contact Us</a></li>
+            </ul>
+            <ul class = "nav navbar-nav navbar-right">
+                <li><a href = "https://www.facebook.com/murphytrans56/"> <span class="glyphicon glyphicon-user"></span> My Account </a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+<div id = "form" class="container">
+
+    <div id = "formHeading" class = "well-sm"> <h1>Enter Your Details to Sign Up.</h1> </div>
+    <br>
+    <form method="post" action="mailer.php"  onSubmit="alert('Thank you for your enquiry, we&#8217;ll get back to you as soon as possible.');">
+        <div class="form-group">
+            First Name: <input type="text" name = "First Name" class="form-control input" id="First Name" placeholder="First name">
+        </div>
+        <div class="form-group">
+            Surname: <input type="text" name = "Surname" class="form-control input" id="Surname" placeholder="Surname">
+        </div>
+        <div class="form-group">
+            Email: <input type="text" name = "email" class="form-control input" id="email" placeholder="Email Address" required>
+        </div>
+        <div class="form-group">
+            Password: <input type="password" name = "password" class="form-control input" id="password" placeholder="Password" required>
+        </div>
+        <div class="form-group">
+            Re-enter Password: <input type="password" name = "passwordAgain" class="form-control input" id="passwordAgain" placeholder="Re-enter Password" required>
+        </div>
+        <button id = "submit" type="submit" class="btn btn-default ">Submit</button>
+        <span class="success"></span>
+        <span><button onclick="reset()" type="submit" class = "btn btn-default">Reset</button></span>
+    </form>
+</div>
+<br>
+<footer>
+    <div id = "footerAddress">
+        <h4> Cork Office </h4>
+        <address> Maryfield <br> Ballinlough Road <br> Cork <br><br><span class="glyphicon glyphicon-earphone"></span> <a id = "phoneLink" href="tel:(021) 4916500">(021) 4916500</a> <br><span class="glyphicon glyphicon-envelope"></span> <a id = "emailLink" href = "mailto:info@murphytransport.ie">info@murphytransport.ie</a></address>
+    </div>
+    <div id = "footerDublinAddress">
+        <h4> Dublin Depot </h4>
+        <address> 120 Elm Road <br> Western Industrial Estate <br> Knockmitten <br> Naas Road <br> Dublin 12 </address>
+    </div>
+    <div id = "safetyImages" class = "container-full">
+        <div id = "eftco">
+            <img src =  "Images/EFTCO.png"  class = "img-responsive">
+        </div>
+        <div id = "sqas">
+            <img src =  "Images/SQAS.jpg" class = "img-responsive img-rounded">
+        </div>
+        <div id = "legal">
+            <p><a href = "legal-page.html" id = "legalLink">Legal <br> Terms & Conditions <br> Privacy Policy <br> Disclaimer <br> &copy 2017 Murphy Transport Ltd. </a> </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

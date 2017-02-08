@@ -1,0 +1,448 @@
+
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
+
+
+.col-xs{
+    padding: 4px;
+}
+
+
+
+.imgContainer {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.well-sm{
+    text-align: center;
+}
+
+.img123{
+    text-align:center;
+}
+
+.navbar{
+    background-color: RGB(241, 35, 35);
+    font-color: white;
+}
+
+.navbar-toggle:focus{
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-menu, .dropdown:active {
+    display: block;
+    margin-top: 0;
+    background-color: RGB(241, 35, 35);
+}
+
+.dropdown:hover .dropdown-menu > li > a{
+    color: white;
+}
+
+.dropdown:hover .dropdown-menu > li > a:hover{
+    display: block;
+    margin-top: 0;
+    background-color:  white;
+    color: black;
+}
+
+.dropdown-toggle:hover, .dropdown-toggle:focus, .dropdown-toggle:active{
+    display: block;
+    background-color: white;
+}
+
+
+
+.navbar .navbar-nav > li.open > a:hover, .navbar .navbar-nav > li.open > a:focus {
+    background-color: white;
+    color: black;
+}
+
+.navbar .navbar-nav > li.open > a{
+    color: white;
+}
+
+.dropdown-backdrop {
+    position: static;
+    background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-header > a:hover {
+    background-color: white;
+    color: black;
+    border-color:  white;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-header > a {
+    color: white ;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: RGB(241, 35, 35);
+    color: white;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: white;
+    color: black;
+}
+
+.image{
+    background-position: center;
+}
+
+/*
+#tankControlLeft, #selfLoadingControlLeft{
+    position: absolute;
+    left: 15%; /* pushes the icon in the middle of the height *
+    z-index: 5;
+    display: inline-block;
+}
+
+#tankControlRight, #selfLoadingControlRight{
+    position: absolute;
+    right: 15%; /* pushes the icon in the middle of the height *
+    z-index: 5;
+    display: inline-block;
+}
+
+#tankerCaption, #washingCaption{
+    background-color:  RGB(241, 35, 35);
+}
+
+#carouselWell{
+    width: 60%;
+}
+
+*/
+
+.well{
+    margin: 0 auto;
+    width: 70%;
+    background-color: RGB(241, 35, 35);
+    border-color: RGB(241, 35, 35);
+    color: white;
+    padding-bottom: 3px;
+}
+
+.btn-default{
+    border-color: RGB(241, 35, 35);
+    background-color: white;
+    color: RGB(241, 35, 35);
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn-primary{
+    border-color: RGB(241, 35, 35);
+    background-color: RGB(241, 35, 35);
+    color: white;
+}
+
+.btn:active, .btn.active{
+    background-color: white;
+}
+
+.btn:focus, .btn.focus{
+    background-color: white;
+}
+
+#formHeading{
+    background-color: RGB(241, 35, 35);
+    color: white;
+    text-align: left;
+}
+
+.carousel{
+    padding: 2px;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    .btn-default-responsive {
+        padding:2px 4px;
+        font-size:80%;
+        line-height: 1;
+        width:30%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .btn-default-responsive {
+        padding:4px 9px;
+        font-size:90%;
+        line-height: 1.2;
+        width:30%;
+    }
+}
+
+.form{
+    text-align: center;
+
+}
+
+.form-group{
+    color: RGB(241, 35, 35);
+}
+
+.input{
+    border-color: RGB(241, 35, 35);
+}
+
+#submit{
+    position:relative;
+}
+
+#findUs{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    width: 76.5%;
+}
+
+#logo, h2, h3{
+    display: inline-block;
+    padding-top: 1px;
+    clear: both;
+    margin: 0 auto;
+}
+
+#pageHeading{
+    display: inline;
+}
+
+#signInButtons{
+    float: right;
+    right: 0;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#legalText{
+    background-color: RGB(241, 35, 35);
+    border-color: RGB(241, 35, 35);
+}
+
+.largeContiner{
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#homeImage {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    display: inline-block;
+    /*position: absolute;*/
+}
+
+#tag {
+    margin: 0 auto;
+    position: absolute;
+    display: inline-block;
+    z-index: 1000;
+    /*background-color: #92AD40;*/
+    padding: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rowElements{
+    margin: auto;
+}
+
+#serviceText{
+    width: 70%;
+}
+
+#serviceImage{
+    width: 70%;
+}
+
+.image123{
+    align: middle;
+}
+
+td, th{
+    text-align: center;
+}
+
+footer{
+    background-color: RGB(241, 35, 35);
+    color: white;
+    padding: 2px;
+    float: top;
+}
+
+#map{
+    clear: both;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10%;
+    padding-left: 10%;
+}
+
+#breakWord{
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+}
+
+#bulletPoints{
+    margin-left: 5%;
+}
+
+.bulletPoints{
+    margin-left: 5%;
+}
+
+#contactDetails{
+    float: right;
+    margin-right: 4%;
+    margin-top: 4%;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+
+    /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+
+#emailLink{
+    color: white;
+}
+
+#phoneLink{
+    color: white;
+}
+
+#footerAddress{
+    margin-left: 3%;
+    display: inline-block;
+}
+
+#footerDublinAddress{
+    margin-left: 3%;
+    vertical-align:top;
+    display: inline-block;
+}
+
+.footer{
+    background-color: RGB(241, 35, 35);
+}
+
+#safetyImages{
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 1%;
+    float: right;
+    background-color: RGB(241, 35, 35);
+}
+
+#eftco{
+    padding-top: 1%;
+    /* margin-left: 10%; */
+    padding: 1%;
+    width: 20%;
+    height: 20%;
+    vertical-align: center;
+    display: inline-block;
+    background-color: white;
+}
+
+#sqas{
+    padding-top: 1%;
+    margin-left: 2%;
+    width: 20%;
+    height: 20%;
+    vertical-align: center;
+    display: inline-block;
+}
+
+#legal{
+    padding-top: 1%;
+    margin-left: 3%;
+    text-align: right;
+    background-color: RGB(241, 35, 35);
+    display: inline-block;
+    vertical-align: top;
+    right: 0;
+    position: absolute;
+}
+
+#legalLink{
+    color: white;
+    text-align: right;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+#alreadyAcc{
+    color: white;
+}
